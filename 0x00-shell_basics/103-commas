@@ -1,1 +1,2 @@
+#!/bin/bash
 ls -m -a -Xp --group-directories-first | sed -e 's/,$/\n/'
