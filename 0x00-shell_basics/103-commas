@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1F | sed -E 's/\./\//g; s/[^0-9a-zA-Z]/ /g; /.|../!d; sort -n; s/$/,/'
+ls -amvp
