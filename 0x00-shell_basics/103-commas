@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -m -a -Xp --group-directories-first | sed -e 's/,$/\n/'
+ls -1F | sed 's/\./\//g; s/[^0-9a-zA-Z]/ /g; /.|../!d; sort -n; echo'
