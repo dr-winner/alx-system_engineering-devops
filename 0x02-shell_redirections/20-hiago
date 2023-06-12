@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Cat and Car" | tr -d 'cC'

@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "Apple and Cat" | tr 'Ac' 'Ze'
