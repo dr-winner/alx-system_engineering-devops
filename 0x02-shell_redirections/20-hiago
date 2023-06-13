@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Cat and Car" | tr -d 'cC'
+echo "Apple and Cat" | tr 'Ac' 'Ze'
